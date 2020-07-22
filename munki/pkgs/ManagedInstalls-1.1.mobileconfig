@@ -11,7 +11,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>E04B65CC-25C2-4B21-902D-8F5C01D01AD1</string>
+	<string>E04B65CC-25C2-4B21-902D-8F5C01D01AD2</string>
 	<key>PayloadOrganization</key>
 	<string>InstallApplications Demo</string>
 	<key>PayloadVersion</key>
@@ -28,17 +28,17 @@
 			<key>PayloadIdentifier</key>
 			<string>com.installapplicationsdemo.munki</string>
 			<key>PayloadUUID</key>
-			<string>FBB84F1C-8C82-46E6-BD75-D306A1724E01</string>
+			<string>FBB84F1C-8C82-46E6-BD75-D306A1724E02</string>
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadDisplayName</key>
-			<string>Munki</string>
+			<string>Munki Config for ORCSD</string>
 			<key>InstallAppleSoftwareUpdates</key>
 			<true/>
 			<key>ClientIdentifier</key>
 			<string>production</string>
 			<key>SoftwareRepoURL</key>
-			<string>https://raw.githubusercontent.com/erikng/installapplicationsdemo/master/munki</string>
+			<string>http://sb-munki.ad.orcsd.org/munki_repo</string>
 		</dict>
 	</array>
 </dict>

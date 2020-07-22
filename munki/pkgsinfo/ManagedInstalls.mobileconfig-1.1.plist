@@ -15,13 +15,13 @@
 	<key>description</key>
 	<string>Management file Munki</string>
 	<key>developer</key>
-	<string>Erik Gomez</string>
+	<string>Alexander Taylor</string>
 	<key>display_name</key>
 	<string>Munki</string>
 	<key>icon_name</key>
 	<string>Munki.png</string>
 	<key>installer_item_hash</key>
-	<string>51bedfc8e82e28a30d0b3dfd0350a3b17f59e396183f544a59c04dc05afed601</string>
+	<string>815a1d32e1d0e99a8c67ab450d2d726dd29a930c74243dc669331324767187f4</string>
 	<key>installer_item_location</key>
 	<string>ManagedInstalls-1.1.mobileconfig</string>
 	<key>installer_item_size</key>

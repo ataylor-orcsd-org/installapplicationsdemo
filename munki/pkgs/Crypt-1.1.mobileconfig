@@ -38,7 +38,7 @@
 			<key>RotateUsedKey</key>
 			<true/>
 			<key>ServerURL</key>
-			<string>https://www.github.com/erikng/installapplicationsdemo</string>
+			<string>https://www.github.com/ataylor-orcsd-org/installapplicationsdemo</string>
 			<key>ValidateKey</key>
 			<true/>
 		</dict>
