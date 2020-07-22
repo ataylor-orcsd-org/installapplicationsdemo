@@ -15,7 +15,7 @@
       "name": "Munki (LaunchD)", 
       "packageid": "com.googlecode.munki.launchd", 
       "type": "package", 
-      "url": "https://raw.githubusercontent.com/ataylor-orcsd-org/installapplicationsdemo/master/installapplications/pkgs/munkitools_launchd-3.0.3265.pkg", 
+      "url": "https://raw.githubusercontent.com/ataylor-orcsd-org/installapplicationsdemo/master/munki/pkgs/munkitools_launchd-3.0.3265.pkg", 
       "version": "3.0.3265"
     }, 
     {
@@ -24,7 +24,7 @@
       "name": "Munki (Core)", 
       "packageid": "com.googlecode.munki.core", 
       "type": "package", 
-      "url": "https://raw.githubusercontent.com/ataylor-orcsd-org/installapplicationsdemo/master/installapplications/pkgs/munkitools_core-4.0.0.3881.pkg", 
+      "url": "https://raw.githubusercontent.com/ataylor-orcsd-org/installapplicationsdemo/master/munki/pkgs/munkitools_core-4.0.0.3881.pkg", 
       "version": "4.0.0.3881"
     }, 
     {
@@ -33,7 +33,7 @@
       "name": "Munki (Python)", 
       "packageid": "com.googlecode.munki.python", 
       "type": "package", 
-      "url": "https://raw.githubusercontent.com/ataylor-orcsd-org/installapplicationsdemo/master/installapplications/pkgs/munkitools_python-3.7.4.pkg", 
+      "url": "https://raw.githubusercontent.com/ataylor-orcsd-org/installapplicationsdemo/master/munki/pkgs/munkitools_python-3.7.4.pkg", 
       "version": "3.7.4"
     }, 
     {
@@ -42,7 +42,7 @@
       "name": "Dockutil Python3", 
       "packageid": "com.installapplicationsdemo.dockutil", 
       "type": "package", 
-      "url": "https://raw.githubusercontent.com/ataylor-orcsd-org/installapplicationsdemo/master/installapplications/pkgs/dockutil-3.0.pkg", 
+      "url": "https://raw.githubusercontent.com/ataylor-orcsd-org/installapplicationsdemo/master/munki/pkgs/dockutil-3.0.pkg", 
       "version": "3.0"
     }, 
     {
@@ -51,7 +51,7 @@
       "name": "DEPNotify", 
       "packageid": "menu.nomad.DEPNotify", 
       "type": "package", 
-      "url": "https://raw.githubusercontent.com/ataylor-orcsd-org/installapplicationsdemo/master/installapplications/pkgs/DEPNotify-1.1.5.pkg", 
+      "url": "https://raw.githubusercontent.com/ataylor-orcsd-org/installapplicationsdemo/master/munki/pkgs/DEPNotify-1.1.5.pkg", 
       "version": "1.1.5"
     }, 
     {
