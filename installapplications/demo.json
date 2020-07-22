@@ -35,7 +35,7 @@
       "type": "package", 
       "url": "https://raw.githubusercontent.com/ataylor-orcsd-org/installapplicationsdemo/master/munki/pkgs/munkitools_python-3.7.4.pkg", 
       "version": "3.7.4"
-    }, 
+    } 
   ], 
   "userland": [
     {
