@@ -80,7 +80,7 @@ def munkiappleupdates():
 def main():
     '''Main thread'''
     # pylint: disable=line-too-long
-    munkiurl = 'https://raw.githubusercontent.com/ataylor-orcsd-org/installapplicationsdemo/master/munki'
+    munkiurl = 'http://sb-munki.ad.orcsd.org/munki_repo'
     # pylint: enable=line-too-long
     backupmanifest = 'production'
 

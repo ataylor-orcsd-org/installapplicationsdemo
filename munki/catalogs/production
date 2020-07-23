@@ -54,58 +54,6 @@
 		<string>5.1.0.3873</string>
 	</dict>
 	<dict>
-		<key>PayloadIdentifier</key>
-		<string>com.installapplicationsdemo.munki</string>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>production</string>
-		</array>
-		<key>category</key>
-		<string>Managed Software Center</string>
-		<key>description</key>
-		<string>Management file Munki</string>
-		<key>developer</key>
-		<string>Alexander Taylor</string>
-		<key>display_name</key>
-		<string>Munki</string>
-		<key>icon_name</key>
-		<string>Munki.png</string>
-		<key>installer_item_hash</key>
-		<string>815a1d32e1d0e99a8c67ab450d2d726dd29a930c74243dc669331324767187f4</string>
-		<key>installer_item_location</key>
-		<string>ManagedInstalls-1.1.mobileconfig</string>
-		<key>installer_item_size</key>
-		<integer>1</integer>
-		<key>installer_type</key>
-		<string>profile</string>
-		<key>minimum_munki_version</key>
-		<string>2.2</string>
-		<key>minimum_os_version</key>
-		<string>10.7</string>
-		<key>name</key>
-		<string>ManagedInstalls.mobileconfig</string>
-		<key>unattended_install</key>
-		<true/>
-		<key>unattended_uninstall</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>remove_profile</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>update_for</key>
-		<array>
-			<string>munkitools_app_usage</string>
-			<string>munkitools_app</string>
-			<string>munkitools_core</string>
-			<string>munkitools_launchd</string>
-			<string>munkitools_python</string>
-		</array>
-		<key>version</key>
-		<string>1.1</string>
-	</dict>
-	<dict>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
