@@ -54,57 +54,6 @@
 		<string>5.1.0.3873</string>
 	</dict>
 	<dict>
-		<key>RestartAction</key>
-		<string>RequireRestart</string>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>production</string>
-		</array>
-		<key>category</key>
-		<string>Encryption</string>
-		<key>description</key>
-		<string></string>
-		<key>developer</key>
-		<string>Graham Gilbert</string>
-		<key>display_name</key>
-		<string>Crypt</string>
-		<key>installed_size</key>
-		<integer>12666</integer>
-		<key>installer_item_hash</key>
-		<string>ecfb1d0632953cde8d95676b6d2812590fc515cd96709d0af125486917f72b32</string>
-		<key>installer_item_location</key>
-		<string>Crypt-3.3.0.178.pkg</string>
-		<key>installer_item_size</key>
-		<integer>4717</integer>
-		<key>minimum_os_version</key>
-		<string>10.5.0</string>
-		<key>name</key>
-		<string>crypt</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>12666</integer>
-				<key>packageid</key>
-				<string>com.grahamgilbert.Crypt</string>
-				<key>version</key>
-				<string>3.3.0.178</string>
-			</dict>
-		</array>
-		<key>unattended_install</key>
-		<true/>
-		<key>unattended_uninstall</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>3.3.0.178</string>
-	</dict>
-	<dict>
 		<key>PayloadIdentifier</key>
 		<string>com.installapplicationsdemo.munki</string>
 		<key>autoremove</key>
@@ -361,52 +310,6 @@
 		<true/>
 		<key>version</key>
 		<string>4.0.0.3881</string>
-	</dict>
-	<dict>
-		<key>PayloadIdentifier</key>
-		<string>com.installapplicationsdemo.crypt</string>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>production</string>
-		</array>
-		<key>category</key>
-		<string>Encryption</string>
-		<key>description</key>
-		<string>Management file for Crypt</string>
-		<key>developer</key>
-		<string>Erik Gomez</string>
-		<key>display_name</key>
-		<string>Crypt</string>
-		<key>installer_item_hash</key>
-		<string>81807f38508d25d77e4fe5af6004eefc62ef1d2cfd7ba032f92912fd530ce8e5</string>
-		<key>installer_item_location</key>
-		<string>Crypt-1.1.mobileconfig</string>
-		<key>installer_item_size</key>
-		<integer>1</integer>
-		<key>installer_type</key>
-		<string>profile</string>
-		<key>minimum_munki_version</key>
-		<string>2.2</string>
-		<key>minimum_os_version</key>
-		<string>10.7</string>
-		<key>name</key>
-		<string>Crypt.mobileconfig</string>
-		<key>unattended_install</key>
-		<true/>
-		<key>unattended_uninstall</key>
-		<true/>
-		<key>uninstall_method</key>
-		<string>remove_profile</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>update_for</key>
-		<array>
-			<string>crypt</string>
-		</array>
-		<key>version</key>
-		<string>1.1</string>
 	</dict>
 </array>
 </plist>

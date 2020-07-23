@@ -8,7 +8,6 @@
 	</array>
 	<key>managed_installs</key>
 	<array>
-		<string>crypt</string>
 		<string>munkitools_app</string>
 		<string>munkitools_app_usage</string>
 		<string>munkitools_core</string>
