@@ -106,7 +106,7 @@ def main():
     deplog("Command: MainText: The Managed Software Center process may take a few minutes "
            "to complete. Thanks for being patient!")
     deplog("Status: Downloading applications from Managed Software Center...")
-    munkirun('depdemo')
+    munkirun('site_default')
 
     # Install downloaded packages
     deplog("Status: Installing applications from Managed Software Center...")
@@ -117,6 +117,7 @@ def main():
         '/Library/Preferences/ManagedInstalls',
         kCFPreferencesAnyUser, kCFPreferencesCurrentHost)
 
+    open(x, '/Users/Shared/.com.googlecode.munki.checkandinstallatstartup').close()
 
 if __name__ == '__main__':
     main()
