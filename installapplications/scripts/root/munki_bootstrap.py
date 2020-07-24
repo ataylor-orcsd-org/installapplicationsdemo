@@ -1,4 +1,4 @@
-#!/Library/installapplications/Python.framework/Versions/3.8/bin/python3
+#!/usr/bin/python3
 '''Munki bootstrap demo code'''
 
 # This script is used to bootstrap munki from a root process.
@@ -21,10 +21,10 @@
 # Written by Erik Gomez.
 
 import subprocess
-import os
 # pylint: disable=import-error
 from Foundation import (CFPreferencesSetValue, kCFPreferencesAnyUser,
                         kCFPreferencesCurrentHost)
+from pathlib import Path
 # pylint: enable=import-error
 
 
@@ -118,7 +118,7 @@ def main():
         '/Library/Preferences/ManagedInstalls',
         kCFPreferencesAnyUser, kCFPreferencesCurrentHost)
 
-    os.mknod('/Users/Shared/.com.googlecode.munki.checkandinstallatstartup')
+    Path('/Users/Shared/.com.googlecode.munki.checkandinstallatstartup').touch()
 
 if __name__ == '__main__':
     main()
