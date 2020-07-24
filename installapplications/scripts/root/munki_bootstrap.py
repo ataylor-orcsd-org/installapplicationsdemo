@@ -21,6 +21,7 @@
 # Written by Erik Gomez.
 
 import subprocess
+import os
 # pylint: disable=import-error
 from Foundation import (CFPreferencesSetValue, kCFPreferencesAnyUser,
                         kCFPreferencesCurrentHost)
@@ -117,7 +118,7 @@ def main():
         '/Library/Preferences/ManagedInstalls',
         kCFPreferencesAnyUser, kCFPreferencesCurrentHost)
 
-    open(x, '/Users/Shared/.com.googlecode.munki.checkandinstallatstartup').close()
+    os.mknod('/Users/Shared/.com.googlecode.munki.checkandinstallatstartup')
 
 if __name__ == '__main__':
     main()
