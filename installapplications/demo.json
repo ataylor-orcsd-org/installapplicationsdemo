@@ -46,7 +46,7 @@
       "version": "3.7.4"
     }, 
     {
-      "file": "/Library/installapplications/installapplications/depnotify_customization.py",
+      "file": "/Library/installapplications/depnotify_customization.py",
       "hash": "f17c10213e645c7b3d357d50280bf49d64c04a7591533c5404f04d9f144202db",
       "name": "DEPNotify Customization",
       "type": "rootscript",
