@@ -10,7 +10,7 @@
   ], 
   "setupassistant": [
     {
-      "file": "/Library/Application Support/installapplications/depnotify_end.py",
+      "file": "/Library/Application Support/installapplications/depnotify_customization.py",
       "hash": "8654428ada3b861e07ef46bbb160dc06be2ea62b3d961faccb6a8fe7539f6a65",
       "name": "DEPNotify End",
       "type": "rootscript",
