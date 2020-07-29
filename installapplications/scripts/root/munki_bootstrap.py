@@ -107,7 +107,7 @@ def main():
     deplog("Command: MainText: The Managed Software Center process may take a few minutes "
            "to complete. Thanks for being patient!")
     deplog("Status: Downloading applications from Managed Software Center...")
-    munkirun('site_default')
+    munkirun('depdeploy')
 
     # Install downloaded packages
     deplog("Status: Installing applications from Managed Software Center...")
