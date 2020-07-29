@@ -11,8 +11,8 @@
   "setupassistant": [
     {
       "file": "/Library/Application Support/installapplications/depnotify_customization.py",
-      "hash": "8654428ada3b861e07ef46bbb160dc06be2ea62b3d961faccb6a8fe7539f6a65",
-      "name": "DEPNotify End",
+      "hash": "f17c10213e645c7b3d357d50280bf49d64c04a7591533c5404f04d9f144202db",
+      "name": "DEPNotify Customization",
       "type": "rootscript",
       "url": "https://raw.githubusercontent.com/ataylor-orcsd-org/installapplicationsdemo/master/installapplications/scripts/root/depnotify_customization.py"
     }, 
