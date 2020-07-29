@@ -38,7 +38,7 @@
     }, 
     {
       "file": "/Library/Application Support/installapplications/DEPNotify-1.0.3.pkg",
-      "hash": "d09b878d32418d16d79c0ad4d89bb0d426c2914a6ce1f9238d7b4e98762f9c35",
+      "hash": "d969b3f5f617424de526a45f5b8badf1d7cbfef8974691beecb3729103003ba0",
       "name": "DEPNotify",
       "packageid": "menu.nomad.DEPNotify",
       "type": "package",
