@@ -109,7 +109,7 @@
     }, 
     {
       "file": "/Library/installapplications/depnotify_end.py",
-      "hash": "4ffa4b4d909872ad4b1506725113f39db38a48f3a6298bfa8fccda3481d9bace",
+      "hash": "a1317fe9c184378ddeb56bf74ed7a1030b62f07a85d93be5200808b209f20d09",
       "name": "DEPNotify End",
       "type": "rootscript",
       "url": "https://raw.githubusercontent.com/ataylor-orcsd-org/installapplicationsdemo/master/installapplications/scripts/root/depnotify_end.py"
