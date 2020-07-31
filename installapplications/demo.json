@@ -65,7 +65,7 @@
   "userland": [
     {
       "file": "/Library/installapplications/userscripts/depnotify_user_launcher.py", 
-      "hash": "b040256bb7b8946992f378b89a68594ed990a02ab28d3c74cec2427aef50eb93", 
+      "hash": "948968e69d308924dddc0a61ca7b125532e955c0b02936e1885e7b81b7e80e51", 
       "name": "DEPNotify User Launcher", 
       "type": "rootscript", 
       "url": "https://raw.githubusercontent.com/ataylor-orcsd-org/installapplicationsdemo/master/installapplications/scripts/user/depnotify_user_launcher.py"
@@ -108,7 +108,7 @@
       "url": "https://raw.githubusercontent.com/ataylor-orcsd-org/installapplicationsdemo/master/installapplications/scripts/root/munki_launchd_loader.py"
     }, 
     {
-      "file": "/Library/Application Support/installapplications/depnotify_end.py",
+      "file": "/Library/installapplications/depnotify_end.py",
       "hash": "4ffa4b4d909872ad4b1506725113f39db38a48f3a6298bfa8fccda3481d9bace",
       "name": "DEPNotify End",
       "type": "rootscript",

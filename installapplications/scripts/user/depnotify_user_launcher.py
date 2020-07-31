@@ -143,8 +143,8 @@ def get_current_user():
 
 def main():
     '''Main thread'''
-    plist_path = os.path.expanduser(
-        '~/Library/Preferences/com.apple.dock.plist')
+    current_user = get_current_user()
+    plist_path = current_user '/Library/Preferences/com.apple.dock.plist'
     # Wait for mod-count to be > 1 because dock is still being setup by Apple.
     # Apps shouldn't try and launch before this.
     if os.stat(plist_path).st_uid == os.stat('/dev/console').st_uid:
@@ -171,7 +171,7 @@ def main():
         launch_depnotify()
     else:
         print('Launching DEPNotify!')
-        launch_depnotify(get_current_user())
+        launch_depnotify(current_user)
 
 if __name__ == '__main__':
     main()
