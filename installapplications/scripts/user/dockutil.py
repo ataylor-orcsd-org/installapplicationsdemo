@@ -82,8 +82,8 @@ def get_os_version():
 def main():
     '''Main thread'''
     # Replace the dock if it still the Apple default.
-    if (b'was not found in' in dockutil('--find', 'Google Chrome', True)
-            and b'was found in' in dockutil('--find', 'Safari', True)
+    if (b'was not found in' in dockutil('--find', 'Microsoft Edge', True)
+            and b'was found in' in dockutil('--find', 'Mail', True)
             and b'was not found in' in dockutil('--find', 'Managed Software Center', True)
             and b'was found in' in dockutil('--find', 'System Preferences', True)):
         print('Detected unprovisioned dock, fixing.')
@@ -93,9 +93,14 @@ def main():
 
         # Add the ones we care about, but only if they exist
         applist = [
-            '/Applications/Google Chrome.app',
-            '/Applications/Safari.app',
             '/Applications/Managed Software Center.app'
+            '/Applications/Microsoft Edge.app',
+            '/Applications/Microsoft Outlook.app',
+            '/Applications/Microsoft Word.app',
+            '/Applications/Microsoft Excel.app',
+            '/Applications/Microsoft PowerPoint.app',
+            '/Applications/Microsoft OneNote.app',
+            '/Applications/Microsoft Teams.app',
         ]
         # 10.15 has a new path for all built-in apps except for Safari
         if '10.15' in get_os_version():
