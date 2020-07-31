@@ -97,7 +97,7 @@
       "file": "/Library/installapplications/userscripts/dockutil.py", 
       "hash": "f5203c3da00d52c6a9735cbd675dfb7bcd6d78ec59487c7e369b1c2027a12ea4", 
       "name": "Dockutil User", 
-      "type": "userscript", 
+      "type": "rootscript", 
       "url": "https://raw.githubusercontent.com/ataylor-orcsd-org/installapplicationsdemo/master/installapplications/scripts/user/dockutil.py"
     }, 
     {
