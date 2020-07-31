@@ -65,7 +65,7 @@
   "userland": [
     {
       "file": "/Library/installapplications/userscripts/depnotify_user_launcher.py", 
-      "hash": "f1e97a88d6b3f1fb51e04cfaacf8c16fcca5738abc1d93088338df318af07363", 
+      "hash": "5a26a0e183fdd330932c7409e33771e0a048fa06d451daac9c7abe142cbd9a04", 
       "name": "DEPNotify User Launcher", 
       "type": "rootscript", 
       "url": "https://raw.githubusercontent.com/ataylor-orcsd-org/installapplicationsdemo/master/installapplications/scripts/user/depnotify_user_launcher.py"

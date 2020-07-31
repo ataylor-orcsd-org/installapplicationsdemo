@@ -122,7 +122,8 @@ def launch_depnotify(current_user):
     dn_path = '/Applications/Utilities/DEPNotify.app'
 #    subprocess.call(['/usr/bin/open', dn_path, '--args', '-munki'])
 #    subprocess.call(['/usr/bin/open', dn_path, '--args', '-munki', '-fullScreen'])
-    subprocess.call(['/usr/bin/sudo', '-u', current_user, '/usr/bin/open', '-a', dn_path, '--args', '-munki', '-fullScreen'])
+    subprocess.call(['/usr/bin/sudo', '-u', current_user, '/usr/bin/open', '-a', dn_path, '--args', '-munki'])
+#    subprocess.call(['/usr/bin/sudo', '-u', current_user, '/usr/bin/open', '-a', dn_path, '--args', '-munki', '-fullScreen'])
 
 
 def kill_depnotify():
