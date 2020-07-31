@@ -80,7 +80,7 @@
     }, 
     {
       "file": "/Library/installapplications/munki_bootstrap.py", 
-      "hash": "a1a43305be584be3004e27c39ded1b20fb6318a0a002cf8794bbc7b34e6830ab", 
+      "hash": "1d8a5097b94947a7c4bd7175a5a1f034762ccb27cb547e766cb5323ea5ce21c4", 
       "name": "Munki Bootsrap", 
       "type": "rootscript", 
       "url": "https://raw.githubusercontent.com/ataylor-orcsd-org/installapplicationsdemo/master/installapplications/scripts/root/munki_bootstrap.py"

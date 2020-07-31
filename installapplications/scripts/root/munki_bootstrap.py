@@ -83,7 +83,6 @@ def main():
     # pylint: disable=line-too-long
     munkiurl = 'http://sb-munki.ad.orcsd.org/munki_repo'
     # pylint: enable=line-too-long
-    backupmanifest = 'production'
 
     deplog("Status: Configurating basic Managed Software Center settings...")
 
@@ -95,11 +94,6 @@ def main():
 
     CFPreferencesSetValue(
         'SoftwareRepoURL', munkiurl,
-        '/Library/Preferences/ManagedInstalls',
-        kCFPreferencesAnyUser, kCFPreferencesCurrentHost)
-
-    CFPreferencesSetValue(
-        'ClientIdentifier', backupmanifest,
         '/Library/Preferences/ManagedInstalls',
         kCFPreferencesAnyUser, kCFPreferencesCurrentHost)
 
