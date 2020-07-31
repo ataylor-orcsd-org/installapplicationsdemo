@@ -117,11 +117,12 @@ def is_app_running(appname):
     return False
 
 
-def launch_depnotify():
+def launch_depnotify(current_user):
     '''Launch DEPNotify'''
     dn_path = '/Applications/Utilities/DEPNotify.app'
-    subprocess.call(['/usr/bin/open', dn_path, '--args', '-munki'])
+#    subprocess.call(['/usr/bin/open', dn_path, '--args', '-munki'])
 #    subprocess.call(['/usr/bin/open', dn_path, '--args', '-munki', '-fullScreen'])
+    subprocess.call(['/usr/bin/sudo', '-u', current_user, '/usr/bin/open', '-a', dn_path, '--args', '-munki', '-fullScreen'])
 
 
 def kill_depnotify():
@@ -129,13 +130,16 @@ def kill_depnotify():
     subprocess.call(['/usr/bin/killall', 'DEPNotify'])
 
 
-def removeUserScriptTouchFile():
-    '''Remove installapplications userscript touchfile'''
-    userscripttouchpath = '/var/tmp/installapplications/.userscript'
+def get_current_user():
+    '''Get current console user'''
+    from SystemConfiguration import SCDynamicStoreCopyConsoleUser;
+    import sys;
+    username = (SCDynamicStoreCopyConsoleUser(None, None, None) or [None])[0];
+    username = [username,""][username in [u"loginwindow", None, u""]];
 
-    os.remove(userscripttouchpath)
-
-
+    loggedInUser = username
+    return loggedInUser
+    
 
 def main():
     '''Main thread'''
@@ -167,8 +171,7 @@ def main():
         launch_depnotify()
     else:
         print('Launching DEPNotify!')
-        launch_depnotify()
-    removeUserScriptTouchFile()
+        launch_depnotify(get_current_user())
 
 if __name__ == '__main__':
     main()
