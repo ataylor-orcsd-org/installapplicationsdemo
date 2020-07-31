@@ -144,7 +144,7 @@ def get_current_user():
 def main():
     '''Main thread'''
     current_user = get_current_user()
-    plist_path = current_user '/Library/Preferences/com.apple.dock.plist'
+    plist_path = '/Users/' + current_user + '/Library/Preferences/com.apple.dock.plist'
     # Wait for mod-count to be > 1 because dock is still being setup by Apple.
     # Apps shouldn't try and launch before this.
     if os.stat(plist_path).st_uid == os.stat('/dev/console').st_uid:
