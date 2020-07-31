@@ -67,7 +67,7 @@
       "file": "/Library/installapplications/userscripts/depnotify_user_launcher.py", 
       "hash": "7c682d4bb848867803ccf43ed1f55cc53fb6ea79c8783b3caad0bb82cee5fe52", 
       "name": "DEPNotify User Launcher", 
-      "type": "userscript", 
+      "type": "rootscript", 
       "url": "https://raw.githubusercontent.com/ataylor-orcsd-org/installapplicationsdemo/master/installapplications/scripts/user/depnotify_user_launcher.py"
     }, 
     {
@@ -109,7 +109,7 @@
     }, 
     {
       "file": "/Library/Application Support/installapplications/depnotify_end.py",
-      "hash": "8654428ada3b861e07ef46bbb160dc06be2ea62b3d961faccb6a8fe7539f6a65",
+      "hash": "4ffa4b4d909872ad4b1506725113f39db38a48f3a6298bfa8fccda3481d9bace",
       "name": "DEPNotify End",
       "type": "rootscript",
       "url": "https://raw.githubusercontent.com/ataylor-orcsd-org/installapplicationsdemo/master/installapplications/scripts/root/depnotify_end.py"
