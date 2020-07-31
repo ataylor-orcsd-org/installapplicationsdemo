@@ -1,5 +1,4 @@
 #!/Library/installapplications/Python.framework/Versions/3.8/bin/python3
-'''dockutil wrapper'''
 
 # Written by Erik Gomez
 # Lots of ideas taken from dockutil and munki
@@ -121,7 +120,7 @@ def is_app_running(appname):
 def launch_depnotify():
     '''Launch DEPNotify'''
     dn_path = '/Applications/Utilities/DEPNotify.app'
-    subprocess.call(['/usr/bin/open', dn_path, '--args', '-munki', '--fullscreen'])
+    subprocess.call(['/usr/bin/open', dn_path, '--args', '-munki', '-fullScreen'])
 
 
 def kill_depnotify():
