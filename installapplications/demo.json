@@ -65,7 +65,7 @@
   "userland": [
     {
       "file": "/Library/installapplications/userscripts/depnotify_user_launcher.py", 
-      "hash": "edc2bea93eac71e5d05fb530cc3e24e031784c7051ac1a00af2380998d5aea01", 
+      "hash": "7c682d4bb848867803ccf43ed1f55cc53fb6ea79c8783b3caad0bb82cee5fe52", 
       "name": "DEPNotify User Launcher", 
       "type": "userscript", 
       "url": "https://raw.githubusercontent.com/ataylor-orcsd-org/installapplicationsdemo/master/installapplications/scripts/user/depnotify_user_launcher.py"
@@ -95,7 +95,7 @@
     }, 
     {
       "file": "/Library/installapplications/userscripts/dockutil.py", 
-      "hash": "f9ff7f41236c8aeb701d4a566bb2983a156bb49b137555ce24f7e85469c9c3e0", 
+      "hash": "f5203c3da00d52c6a9735cbd675dfb7bcd6d78ec59487c7e369b1c2027a12ea4", 
       "name": "Dockutil User", 
       "type": "userscript", 
       "url": "https://raw.githubusercontent.com/ataylor-orcsd-org/installapplicationsdemo/master/installapplications/scripts/user/dockutil.py"

@@ -79,6 +79,13 @@ def get_os_version():
     return platform.mac_ver()[0]
 
 
+def removeUserScriptTouchFile():
+    '''Remove installapplications userscript touchfile'''
+    userscripttouchpath = '/var/tmp/installapplications/.userscript'
+
+    os.remove(userscripttouchpath)
+
+
 def main():
     '''Main thread'''
     # Replace the dock if it still the Apple default.
@@ -120,6 +127,8 @@ def main():
         dockutil_folder('--add', '/Applications', False, 'name')
     else:
         print('Detected previoiusly provisioned dock, exiting.', file=sys.stderr)
+    removeUserScriptTouchFile()
+
 
 
 if __name__ == '__main__':

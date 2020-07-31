@@ -129,6 +129,14 @@ def kill_depnotify():
     subprocess.call(['/usr/bin/killall', 'DEPNotify'])
 
 
+def removeUserScriptTouchFile():
+    '''Remove installapplications userscript touchfile'''
+    userscripttouchpath = '/var/tmp/installapplications/.userscript'
+
+    os.remove(userscripttouchpath)
+
+
+
 def main():
     '''Main thread'''
     plist_path = os.path.expanduser(
@@ -160,7 +168,7 @@ def main():
     else:
         print('Launching DEPNotify!')
         launch_depnotify()
-
+    removeUserScriptTouchFile()
 
 if __name__ == '__main__':
     main()
