@@ -2,7 +2,7 @@
   "preflight": [
     {
       "file": "/Library/installapplications/preflight.py", 
-      "hash": "98a29cb57bde1a3f245351e911de3a6dad3daae5d48961375e3b5c319ccda531", 
+      "hash": "11cbadbd73fc4f69b814b40ba9843ca8003031fdd356276bea5a71e2e7166a00", 
       "name": "Preflight", 
       "type": "rootscript", 
       "url": "https://raw.githubusercontent.com/ataylor-orcsd-org/installapplicationsdemo/master/installapplications/scripts/root/preflight.py"

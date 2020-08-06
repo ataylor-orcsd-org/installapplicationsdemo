@@ -60,8 +60,5 @@ def main():
     print('All checks passed!')
     sys.exit(0)
 
-print('Forcing run')
-sys.exit(1)
-
 if __name__ == '__main__':
     main()
